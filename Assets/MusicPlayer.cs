@@ -9,9 +9,14 @@ public class MusicPlayer : MonoBehaviour {
 
     AudioSource audioSource;
 
-	void Start ()
+    private void Awake()
     {
-        audioSource = GetComponent<AudioSource>();
+        DontDestroyOnLoad(gameObject);
+    }
+
+    void Start ()
+    {
+        audioSource = GetComponent<AudioSource>();       
         StartCoroutine(StartSplashMusic());
 	}
 	
