@@ -9,5 +9,5 @@ EditorBuildSettings:
     path: Assets/_Scenes/SpalshScreen.unity
     guid: 2ea1a1b4507f33e4e938e95ef6fbd895
   - enabled: 1
-    path: Assets/_Scenes/Level 1.unity
+    path: Assets/_Scenes/Game.unity
     guid: e32b365a03a5651408fafbee247dddc1

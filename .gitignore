@@ -34,3 +34,6 @@ sysinfo.txt
 *.unitypackage
 Assets/EffectExamples/
 Assets/PostProcessing/
+Assets/Asset Packs/EffectExamples/
+Assets/Asset Packs/PostProcessing/
+Assets/Asset Packs/Standard Assets/
