@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 198758499351432672}
   - component: {fileID: 199322807449164992}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: Bullet Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 198193036433746644}
   - component: {fileID: 199445807122235468}
   m_Layer: 0
-  m_Name: Bullet (1)
+  m_Name: Bullet Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -562,7 +562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1028987413966100}
-  timeToWaitBeforeLoadingLevel: 3
+  levelLoadDelay: 3
 --- !u!198 &198193036433746644
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -623,7 +623,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1672767376
+  randomSeed: -1603307045
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -20358,7 +20358,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -578518002
+  randomSeed: 1164425741
   InitialModule:
     serializedVersion: 3
     enabled: 1
