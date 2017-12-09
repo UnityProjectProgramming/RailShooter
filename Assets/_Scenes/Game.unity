@@ -300,8 +300,7 @@ Prefab:
       propertyPath: m_Name
       value: Ship_02 (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 65146274950095116, guid: bf374732b0ea2c34daa340dc2de7f746,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
@@ -507,8 +506,7 @@ Prefab:
       propertyPath: m_Name
       value: Ship_02 (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 65146274950095116, guid: bf374732b0ea2c34daa340dc2de7f746,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
@@ -848,8 +846,7 @@ Prefab:
       propertyPath: m_Name
       value: Ship_02 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 65146274950095116, guid: bf374732b0ea2c34daa340dc2de7f746,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
@@ -929,18 +926,6 @@ GameObject:
   m_PrefabParentObject: {fileID: 1090395654553690, guid: e14d375f5a36551479fc2f172353b1ba,
     type: 2}
   m_PrefabInternal: {fileID: 519554007}
---- !u!65 &519554010
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 519554009}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.59759563, y: 0.17319097, z: 0.67661756}
-  m_Center: {x: 0, y: 0.000000014901161, z: 0}
 --- !u!114 &519554011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1053,18 +1038,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &729603871
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 729603868}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66270876, y: 0.48463205, z: 0.14032477}
-  m_Center: {x: -3.6082248e-16, y: 8.3266727e-16, z: -0.0000000037252907}
 --- !u!1 &841052156 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1238095480485456, guid: bf374732b0ea2c34daa340dc2de7f746,
@@ -1161,18 +1134,6 @@ GameObject:
   m_PrefabParentObject: {fileID: 1090395654553690, guid: e14d375f5a36551479fc2f172353b1ba,
     type: 2}
   m_PrefabInternal: {fileID: 892018154}
---- !u!65 &892018157
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 892018156}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.5975957, y: 0.17319098, z: 0.6766176}
-  m_Center: {x: -0.00000023841858, y: -0.000000044703484, z: 0.000000059604645}
 --- !u!114 &892018158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1479,8 +1440,7 @@ Prefab:
       propertyPath: m_Name
       value: Ship_02 (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 65146274950095116, guid: bf374732b0ea2c34daa340dc2de7f746,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
@@ -1601,8 +1561,7 @@ Prefab:
       propertyPath: m_Name
       value: Ship_02 (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 65146274950095116, guid: bf374732b0ea2c34daa340dc2de7f746,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
@@ -1682,7 +1641,7 @@ Prefab:
       value: Ship_02 (3)
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 65146274950095116, guid: bf374732b0ea2c34daa340dc2de7f746, type: 2}
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: bf374732b0ea2c34daa340dc2de7f746, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &1503319053 stripped
@@ -1795,8 +1754,7 @@ Prefab:
       propertyPath: m_Name
       value: Ship_02 (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 65146274950095116, guid: bf374732b0ea2c34daa340dc2de7f746,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
@@ -1887,8 +1845,7 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -326.048
       objectReference: {fileID: 0}
-    - target: {fileID: 65146274950095116, guid: bf374732b0ea2c34daa340dc2de7f746,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
