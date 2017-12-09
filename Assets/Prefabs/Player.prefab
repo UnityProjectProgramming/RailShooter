@@ -56,6 +56,7 @@ GameObject:
   - component: {fileID: 65150785943269364}
   - component: {fileID: 54510104151398226}
   - component: {fileID: 114007588606986626}
+  - component: {fileID: 114467788912488366}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -220,6 +221,17 @@ MonoBehaviour:
   controlPitchFactor: -20
   positionYawFactor: 8
   controlRollFactor: -20
+--- !u!114 &114467788912488366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1507949111762616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710dc6df807f39e47b9629bd3b8944dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!198 &198193036433746644
 ParticleSystem:
   m_ObjectHideFlags: 1

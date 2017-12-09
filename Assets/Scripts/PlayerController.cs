@@ -3,28 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-public class Player : MonoBehaviour {
+public class PlayerController : MonoBehaviour {
 
+    [Header("General")]
     [Tooltip("ms^-1")][SerializeField] float xSpeed = 1.0f;
     [Tooltip("ms^-1")][SerializeField] float ySpeed = 1.0f;
 
+    [Header("Screen-Position Based")]
     [SerializeField] float positionPitchFactor = -6.0f;
+    [SerializeField] float positionYawFactor = 8;
+
+    [Header("Control-Throw Based")]
+    [SerializeField] float controlRollFactor = -20;
     [SerializeField] float controlPitchFactor = -20.0f;
 
-    [SerializeField] float positionYawFactor = 8;
-    [SerializeField] float controlRollFactor = -20;
-
     float xThrow, yThrow;
-
-    void Start ()
-    {
-		
-	}
-	
+    bool isControlEnabled = true;
 	void Update ()
     {
-        ProccessTranslation();
-        ProccessRotation();
+        if(isControlEnabled)
+        {
+            ProccessTranslation();
+            ProccessRotation();
+        }
     }
 
     private void ProccessTranslation()
@@ -56,8 +57,9 @@ public class Player : MonoBehaviour {
         transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
     }
 
-    private void OnTriggerEnter(Collider other)
+    void OnPlayerDeath() // Called by string reference.
     {
-        print("Player triggerd " + other.name);
+        isControlEnabled = false;
     }
+
 }
