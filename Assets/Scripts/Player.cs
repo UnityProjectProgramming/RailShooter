@@ -15,6 +15,7 @@ public class Player : MonoBehaviour {
     [SerializeField] float controlRollFactor = -20;
 
     float xThrow, yThrow;
+
     void Start ()
     {
 		
@@ -31,14 +32,14 @@ public class Player : MonoBehaviour {
         xThrow = CrossPlatformInputManager.GetAxis("Horizontal");
         float xOffset = xThrow * xSpeed * Time.deltaTime;
         float rawNewXPos = transform.localPosition.x + xOffset;
-        float xPos = Mathf.Clamp(rawNewXPos, -3.8f, 3.8f); //TODO parametarize
+        float xPos = Mathf.Clamp(rawNewXPos, -7.10f, 7.10f); //TODO parametarize
         transform.localPosition = new Vector3(xPos, transform.localPosition.y, transform.localPosition.z);
 
 
         yThrow = CrossPlatformInputManager.GetAxis("Vertical");
         float yOffset = yThrow * ySpeed * Time.deltaTime;
         float rawNewYPos = transform.localPosition.y + yOffset;
-        float yPos = Mathf.Clamp(rawNewYPos, -2.5f, 2.9f); //TODO parametarize
+        float yPos = Mathf.Clamp(rawNewYPos, -4.8f, 4.8f); //TODO parametarize
         transform.localPosition = new Vector3(transform.localPosition.x, yPos, transform.localPosition.z);
     }
 
@@ -53,5 +54,10 @@ public class Player : MonoBehaviour {
         float roll = xThrow * controlRollFactor;
 
         transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        print("Player triggerd " + other.name);
     }
 }
