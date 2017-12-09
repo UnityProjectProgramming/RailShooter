@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour {
 
-
+    [SerializeField] GameObject deathFX;
+    [SerializeField] Transform parent;
 
     private void Awake()
     {
@@ -15,6 +16,9 @@ public class Enemy : MonoBehaviour {
     private void OnParticleCollision(GameObject other)
     {
         print("Collision with Enemies");
+        GameObject fx =  Instantiate(deathFX, gameObject.transform.position, Quaternion.identity);
+        fx.transform.parent = parent;
         Destroy(gameObject);
+        Destroy(fx, fx.GetComponent<ParticleSystem>().main.duration);
     }
 }
