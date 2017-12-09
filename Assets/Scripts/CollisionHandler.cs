@@ -2,12 +2,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
 {
     [SerializeField] GameObject deathFX;
     [SerializeField] float levelLoadDelay = 3.0f;
+
+    SceneLoader sceneLoader;
+    private void Start()
+    {
+        sceneLoader = FindObjectOfType<SceneLoader>();
+    }
     private void OnTriggerEnter(Collider other)
     {
         StartDeathSequence();
@@ -22,7 +27,7 @@ public class CollisionHandler : MonoBehaviour
     IEnumerator DieAndLoadScene()
     {
         deathFX.SetActive(true);
-        yield return new WaitForSeconds(levelLoadDelay);
-        SceneManager.LoadScene(1);
+        yield return new WaitForEndOfFrame();
+        StartCoroutine(sceneLoader.LoadLevelOne());
     }
 }

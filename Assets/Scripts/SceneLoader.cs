@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
 
-    public IEnumerator StartSplashMusic()
+    public IEnumerator LoadLevelOne()
     {
         yield return new WaitForSeconds(3.0f);
         SceneManager.LoadScene(1);

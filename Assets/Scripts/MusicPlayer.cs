@@ -9,9 +9,18 @@ public class MusicPlayer : MonoBehaviour {
 
     AudioSource audioSource;
     SceneLoader sceneLoader;
+    //Using Singlton pattern
     private void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+        var musicPlayers = FindObjectsOfType<MusicPlayer>();
+        if(musicPlayers.Length > 1)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);
+        }
     }
 
     void Start ()
@@ -19,7 +28,7 @@ public class MusicPlayer : MonoBehaviour {
         sceneLoader = FindObjectOfType<SceneLoader>();
         audioSource = GetComponent<AudioSource>();
         audioSource.PlayOneShot(splashClip);
-        StartCoroutine(sceneLoader.StartSplashMusic());
+        StartCoroutine(sceneLoader.LoadLevelOne());
 	}
 	
 }
