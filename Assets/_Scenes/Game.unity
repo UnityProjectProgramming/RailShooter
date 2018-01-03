@@ -243,6 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
 --- !u!1 &41093988 stripped
@@ -261,6 +262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
 --- !u!1 &115568144
@@ -629,6 +631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
 --- !u!1001 &208399138
@@ -1065,6 +1068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
 --- !u!1 &338582107
@@ -1224,6 +1228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
 --- !u!1001 &380817063
@@ -1373,6 +1378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
 --- !u!1001 &519554007
@@ -1454,6 +1460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
 --- !u!1 &552349312
@@ -1557,6 +1564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
 --- !u!1 &841052156 stripped
@@ -1575,6 +1583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
 --- !u!1001 &892018154
@@ -1668,6 +1677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
 --- !u!1 &991219061 stripped
@@ -1686,6 +1696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
 --- !u!1001 &994394166
@@ -1783,6 +1794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
 --- !u!1 &1157737821
@@ -1904,6 +1916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 1000
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
 --- !u!1 &1189503110
@@ -2008,6 +2021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
 --- !u!1001 &1356112958
@@ -2105,6 +2119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
 --- !u!1001 &1391820231
@@ -2393,6 +2408,7 @@ GameObject:
   - component: {fileID: 1600523240}
   - component: {fileID: 1600523242}
   - component: {fileID: 1600523241}
+  - component: {fileID: 1600523243}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -2407,7 +2423,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1600523239}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -505.82996, y: -363.7, z: 0}
+  m_LocalPosition: {x: -505.83002, y: -363.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1819179795}
@@ -2457,6 +2473,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1600523239}
+--- !u!114 &1600523243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1600523239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3be78f4fb5cf3ee44a21c06caf7484a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1630481636
 Prefab:
   m_ObjectHideFlags: 0
@@ -2540,6 +2567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
 --- !u!1001 &1804040088
@@ -2637,6 +2665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
 --- !u!1 &1819179791
@@ -2684,10 +2713,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -2722,7 +2751,7 @@ RectTransform:
   m_GameObject: {fileID: 1819179791}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 782, y: 447.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.81458336, y: 0.81458336, z: 0.81458336}
   m_Children:
   - {fileID: 1600523240}
   m_Father: {fileID: 0}
@@ -2828,6 +2857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
 --- !u!1 &2035019065
@@ -2973,6 +3003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
 --- !u!1001 &2105546762
@@ -3071,5 +3102,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a42a8b91f052a45b63e8da89f33a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1183029056087870, guid: 9f1092fb6a742b74f9d40fc89afcf7f4, type: 2}
   parent: {fileID: 249710834}
