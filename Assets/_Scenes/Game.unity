@@ -641,6 +641,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 254758282}
     m_Modifications:
+    - target: {fileID: 114007588606986626, guid: 9730307c3ad9f674da76a39f1357a61c,
+        type: 2}
+      propertyPath: guns.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4071044652357444, guid: 9730307c3ad9f674da76a39f1357a61c, type: 2}
       propertyPath: m_LocalPosition.x
       value: -5.38
@@ -671,6 +676,36 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4071044652357444, guid: 9730307c3ad9f674da76a39f1357a61c, type: 2}
       propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183151665312438, guid: 9730307c3ad9f674da76a39f1357a61c, type: 2}
+      propertyPath: m_Name
+      value: Gun Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846231234704230, guid: 9730307c3ad9f674da76a39f1357a61c, type: 2}
+      propertyPath: m_Name
+      value: Gun Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 114007588606986626, guid: 9730307c3ad9f674da76a39f1357a61c,
+        type: 2}
+      propertyPath: guns.Array.data[0]
+      value: 
+      objectReference: {fileID: 400011882}
+    - target: {fileID: 114007588606986626, guid: 9730307c3ad9f674da76a39f1357a61c,
+        type: 2}
+      propertyPath: guns.Array.data[1]
+      value: 
+      objectReference: {fileID: 582846999}
+    - target: {fileID: 1507949111762616, guid: 9730307c3ad9f674da76a39f1357a61c, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183151665312438, guid: 9730307c3ad9f674da76a39f1357a61c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846231234704230, guid: 9730307c3ad9f674da76a39f1357a61c, type: 2}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1281,6 +1316,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bf374732b0ea2c34daa340dc2de7f746, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &400011882 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1183151665312438, guid: 9730307c3ad9f674da76a39f1357a61c,
+    type: 2}
+  m_PrefabInternal: {fileID: 208399138}
 --- !u!4 &416558381 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4354848751893472, guid: bf374732b0ea2c34daa340dc2de7f746,
@@ -1548,6 +1588,11 @@ Transform:
   m_Father: {fileID: 552349314}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &582846999 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1846231234704230, guid: 9730307c3ad9f674da76a39f1357a61c,
+    type: 2}
+  m_PrefabInternal: {fileID: 208399138}
 --- !u!1 &729603868 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1238095480485456, guid: bf374732b0ea2c34daa340dc2de7f746,
