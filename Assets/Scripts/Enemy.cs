@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     //Serlialized
     [SerializeField] int scorePerHit = 12;
+    [SerializeField] int hits = 10;
     [SerializeField] GameObject deathFX;
     [SerializeField] Transform parent;
 
@@ -30,8 +31,22 @@ public class Enemy : MonoBehaviour
 
     private void OnParticleCollision(GameObject other)
     {
+        ProcessHit();
+        if (hits <= 0)
+        {
+            KillEnemy();
+        }
+    }
+
+    private void ProcessHit()
+    {
         scoreBoard.ScoreHit(scorePerHit);
-        GameObject fx =  Instantiate(deathFX, gameObject.transform.position, Quaternion.identity);
+        hits--;
+    }
+
+    private void KillEnemy()
+    {
+        GameObject fx = Instantiate(deathFX, gameObject.transform.position, Quaternion.identity);
         fx.transform.parent = parent;
         Destroy(gameObject);
         Destroy(fx, fx.GetComponent<ParticleSystem>().main.duration);
